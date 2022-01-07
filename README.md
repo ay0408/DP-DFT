@@ -1,3 +1,9 @@
 # DP-DFT
 
-This contains Python codes used in our experiments on methods for privately releasing the top K significant SNPs using Discrete Fourier Transform (DFT). 
+This contains Python codes used in our experiments on methods for privately releasing the top K significant SNPs using Discrete Fourier Transform (DFT).
+
+We conducted experiments based on simulation and real data to evaluate the accuracy and run time of our methods. The distribution of the statistics for the experiments can be found in the dataset file. 
+
+Supplements.pdf contains an overview the TDT focused on in our experiments and a detailed description of the used data.
+
+For details of our mechanisms, please see our paper entitled "Efficient and highly accurate differentially private statistical genomic analysis using discrete Fourier transform".
