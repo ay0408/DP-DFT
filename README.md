@@ -7,3 +7,12 @@ We conducted experiments based on simulation and real data to evaluate the accur
 Supplement.pdf contains an overview the TDT focused on in our experiments and a detailed description of the used data.
 
 For details of our mechanisms, please see our paper entitled "Efficient and highly accurate differentially private statistical genomic analysis using discrete Fourier transform".
+
+### Contact
+Akito Yamamoto
+
+Division of Medical Data Informatics, Human Genome Center,
+
+the Institute of Medical Science, the University of Tokyo
+
+a-ymmt@ims.u-tokyo.ac.jp
