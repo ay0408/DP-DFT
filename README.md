@@ -8,7 +8,7 @@ Supplement.pdf contains an overview the TDT focused on in our experiments and a 
 
 ## Note
 
-For details of our mechanisms, please see our paper entitled "Efficient and highly accurate differentially private statistical genomic analysis using discrete Fourier transform".
+For details of our mechanisms, please see our paper entitled "Efficient and Highly Accurate Differentially Private Statistical Genomic Analysis using Discrete Fourier Transform".
 
 ### Contact
 Akito Yamamoto
