@@ -8,7 +8,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ## Note
 
-For details of our mechanisms, please see our paper entitled "Efficient and Highly Accurate Differentially Private Statistical Genomic Analysis using Discrete Fourier Transform".
+For details of our mechanisms, please see our paper entitled "Efficient and Highly Accurate Differentially Private Statistical Genomic Analysis using Discrete Fourier Transform". (It will be presented at TrustCom-2022.)
 
 ### Contact
 Akito Yamamoto
