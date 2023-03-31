@@ -6,9 +6,15 @@ We conducted experiments based on simulation and real data to evaluate the accur
 
 Supplement.pdf contains detailed proofs of our theorems and some explanations of the data used in our experiments.
 
-## Major cons of our methods and future directions
+## Important future directions
 
+・Developing better ways to set the parameter s.
 
+・Evaluating the relationship among elements of the reconstructed vector in DFT rigolously.
+
+・Considering genome dependencies and its effects on the changes in statistics.
+
+・Utilizing our methods in other research fields, for example, histogram publication.
 
 ## Note
 
@@ -16,7 +22,7 @@ For details of our mechanisms, please see our paper entitled "Efficient and High
 
 Errata:
 
-・p.529. Algorithm 4 Step 10. "steps 5 and 6" → "steps 8 and 9"
+・p.529. Algorithm 4. Step 10. "steps 5 and 6" → "steps 8 and 9"
 
 ### Contact
 Akito Yamamoto
