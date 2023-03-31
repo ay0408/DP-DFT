@@ -6,9 +6,17 @@ We conducted experiments based on simulation and real data to evaluate the accur
 
 Supplement.pdf contains detailed proofs of our theorems and some explanations of the data used in our experiments.
 
+## Major cons of our methods and future directions
+
+
+
 ## Note
 
 For details of our mechanisms, please see our paper entitled "Efficient and Highly Accurate Differentially Private Statistical Genomic Analysis using Discrete Fourier Transform" (https://doi.org/10.1109/TrustCom56396.2022.00078) presented at IEEE TrustCom 2022.
+
+Errata:
+
+・p.529. Algorithm 4 Step 10. "steps 5 and 6" → "steps 8 and 9"
 
 ### Contact
 Akito Yamamoto
