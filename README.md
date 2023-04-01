@@ -12,7 +12,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・Evaluating the relationship among elements of the reconstructed vector in DFT rigolously.
 
-・Considering genome dependencies and its effects on the changes in statistics.
+・Considering genome dependencies and its effects on the changes in statistics (vector).
 
 ・Utilizing our methods in other research fields, for example, histogram publication.
 
