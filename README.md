@@ -14,7 +14,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・Considering genome dependencies and its effects on the changes in statistics (vector).
 
-・Utilizing our methods (idea) in other research fields, for example, histogram publication.
+・Utilizing our methods (idea) in other research fields, for example, histogram publication (where the number of elements (of the vector used in DFT) differing in a neighboring dataset is limited).
 
 ## Note
 
