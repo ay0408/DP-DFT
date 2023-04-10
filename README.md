@@ -10,7 +10,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・Developing better ways to set the parameter s.
 
-・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously.
+・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously. (The assumption in this study that the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$ is too rough.)
 
 ・Considering genome dependencies and its effects on the changes in statistics (vector).
 
