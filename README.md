@@ -10,11 +10,11 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・Developing better ways to set the parameter s.
 
-・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously.
+~~(・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously.)~~
 
-・Considering genome dependencies and its effects on the changes in statistics (vector).
+・Considering genome dependencies ~~(and its effects on the changes in statistics (vector))~~ .
 
-・Utilizing our methods (idea) in other research fields, for example, histogram publication (where the number of elements (of the vector used in DFT) differing in a neighboring dataset is limited).
+・Utilizing our methods (idea) in other research fields, for example, histogram publication.
 
 ## Note
 
