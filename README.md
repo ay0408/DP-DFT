@@ -12,12 +12,12 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously. (The assumption in this study that "the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" is too rough.)
 
-・Considering genome dependencies and its effects on the changes in statistics (vector).
+・Considering genome dependencies and its effects on the changes in statistics (vector) (In practical terms, this might cause little problems. Analyzing local sensitivity might be useful.).
 
 ・We should perform some pre-processing, like constructing a pseudo-statistics vector similar to the original vector. 
 (Then, based on the constructed vector, we can conduct similar procedures to our algorithms.)
 
-・Utilizing our methods (idea) in other research fields, for example, histogram publication.
+・Utilizing our methods (idea) in other research fields, for example, histogram publication (where the number of varying elements (of the vector) between neighboring datasets is limited).
 
 ## Note
 
