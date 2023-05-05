@@ -19,7 +19,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 ・We should perform some pre-processing, like constructing a pseudo-statistics vector similar to the original vector. 
 (Then, based on the constructed vector, we can conduct similar procedures to our algorithms.)
 
-・Utilizing our methods (idea) in other research fields, for example, histogram publication (where the number of varying elements (of the vector) between neighboring datasets is limited).
+・Utilizing our methods (idea) in other research fields, for example, histogram publication (where the number of varying elements (of the vector) between neighboring datasets is limited). <---- It would be easy to apply because there is no need to sort and the ${\it sensitivity}$ analysis is simple. (Further reseach and experiments are needed for each domain, though.)
 
 ## Note
 
