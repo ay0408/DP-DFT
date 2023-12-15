@@ -14,7 +14,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・This study aimed to output the top $K$ data, but if sorting process certainly has privacy issues when using DFT, our method would be useless. (cf. When using the Laplace mechanism, there is no problem at all with sorting before adding noise. Quantifying the change in privacy assurance when sorting might be an important research question.) Instead, if the values reconstructed by IDFT can be regarded as statistics, our method can be used for the purpose of accurately publishing statistical information. Therefore, it may be worthwhile to consider statistical tests using elements of the reconstructed vector.
 
-・Considering genome dependencies and its effects on the changes in statistics (vector) (In practical terms, this might cause little problems. Analyzing local sensitivity might be useful.).
+・Considering genome dependencies and its effects on the changes in statistics (vector) (Analyzing local sensitivity might be useful.).
 
 ・We should perform some pre-processing, like constructing a pseudo-statistics vector similar to the original vector. 
 (Then, based on the constructed vector, we can conduct similar procedures to our algorithms.)
