@@ -10,7 +10,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 
 ・The assumption in our original paper that "the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" is too rough. More precisely, we should assume "the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements". (I updated the proof in Supplements.pdf.) (Can we really say that this assumption is reasonable?)
 
-## Future directions
+## Future Directions
 
 ・Developing better ways to set the parameter $s$.
 
