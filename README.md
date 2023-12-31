@@ -6,11 +6,15 @@ We conducted experiments based on simulation and real data to evaluate the accur
 
 Supplement.pdf contains detailed proofs of our theorems and some explanations of the data used in our experiments.
 
-## Important future directions
+## Important Note
+
+・The assumption in our original paper that "the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" is too rough. More precisely, we should assume "the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements". (I updated the proof in Supplements.pdf.) (Can we really say that this assumption is reasonable?)
+
+## Future directions
 
 ・Developing better ways to set the parameter $s$.
 
-・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously. (The assumption in our original paper that "the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" is too rough. More precisely, we should assume "the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements". (I updated the proof in Supplements.pdf.) (Can we really say that this assumption is reasonable?)) 
+・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously (and answering to the above question in Important Note).
 
 ・This study aimed to output the top $K$ data, but if sorting process certainly has privacy issues when using DFT, our method would be useless. (cf. When using the Laplace mechanism, there is no problem at all with sorting before adding noise. Quantifying the change in privacy assurance when sorting might be an important research question.) Instead, if the values reconstructed by IDFT can be regarded as statistics, our method can be used for the purpose of accurately publishing statistical information. Therefore, it may be worthwhile to consider statistical tests using elements of the reconstructed vector.
 
