@@ -31,6 +31,9 @@ For details of our mechanisms, please see our paper entitled "Efficient and High
 
 Errata:
 
+・p.528. we assume that  
+$\ \ \ \  $"the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" → "the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements"
+
 ・p.529. Algorithm 4. Step 10. "steps 5 and 6" → "steps 8 and 9"
 
 ### Contact
