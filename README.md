@@ -31,6 +31,8 @@ For details of our mechanisms, please see our paper entitled "Efficient and High
 
 Errata:
 
+・p.527. Definition 4. " $T_i$ and $T_i'$ are the test statistics obtained from" → " $T_i$ and $T_i'$ are the test statistics associated with"
+
 ・p.528, l.6. The sentence "In this study, we assume that the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$." should be ${\it deleted}$. Instead, the sentence before Theorem 1 "In addition, we theoretically prove ~ by Theorem 1." should be ${\it rewritten}$ to "In addition, we ~ by Theorem 1, when we assume that the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements."
 
 ・p.529. Algorithm 4. Step 10. "steps 5 and 6" → "steps 8 and 9"
