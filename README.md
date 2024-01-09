@@ -31,7 +31,7 @@ For details of our mechanisms, please see our paper entitled "Efficient and High
 
 Errata:
 
-・p.527. Definition 4. " $T_i$ and $T_i'$ are the test statistics obtained from" → " $T_i$ and $T_i'$ are the test statistics associated with"
+・p.527. Definition 4. " $D_i, D'_i \in \mathcal{D}^M$ " → " $D, D' \in \mathcal{D}^M$ "
 
 ・p.528, l.6. The sentence "In this study, we assume that the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$." should be ${\it deleted}$. 
 
