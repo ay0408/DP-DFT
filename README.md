@@ -9,7 +9,7 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 ## Important Note
 
 ・The assumption in our original paper "the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" might be too rough. More precisely, we should assume "the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements" (In the paper, we briefly mention this before Theorem 1). (I updated the proof in Supplements.pdf.) (Can we really say that this assumption is reasonable?)  
-← Further exploration of this assumption is needed, and depending on the results, our method could be of significant high utility.
+← This assumption is based on that the original $g$ cannot reconstructed from $g' = \mathrm{IDFT}(\mathrm{PAD}^m(\mathrm{DFT}^s(g)))$. Further exploration of this assumption is needed, and depending on the results, our method could be of significant high utility.
 
 ## Future Directions
 
