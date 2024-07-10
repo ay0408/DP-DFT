@@ -9,13 +9,15 @@ Supplement.pdf contains detailed proofs of our theorems and some explanations of
 ## Important Note
 
 ・The assumption in our original paper "the original $k$-th element $g_k$ cannot be recovered from the reconstructed $k'(\neq k)$-th element $\hat{g}_{k'}$" might be too rough. More precisely, we should assume "the sorts in neighboring datasets are indistinguishable based on the probabilities of outputting the same $K$ elements" (In the paper, we briefly mention this before Theorem 1). (I updated the proof in Supplements.pdf.) (Can we really say that this assumption is reasonable?)  
-← Further exploration of this assumption is needed, and depending on the results, our method could be of significant high utility.
+← This assumption is based on that the trend between the elements of the original vector $g$ is expected to be approximately preserved by the operation $\mathrm{IDFT}(\mathrm{PAD}^m(\mathrm{DFT}^s(g)))$, and it would be difficult to distinguish (the sorts in) neighboring datasets from the differences in the probability of each output from our method. Further exploration of this assumption is needed, and depending on the results, our method could be of significant high utility.
 
 ## Future Directions
 
 ・Developing better ways to set the parameter $s$.
 
 ・Evaluating the relationship among elements of the reconstructed vector in DFT rigorously (and answering to the above question in Important Note).
+
+・Improving the accuracy for the case of a large cohort.
 
 ・This study aimed to output the top $K$ data, but if sorting process certainly has privacy issues when using DFT, our method would be useless. (cf. When using the Laplace mechanism, there is no problem at all with sorting before adding noise. Quantifying the change in privacy assurance when sorting might be an important research question.) Instead, if the values reconstructed by IDFT can be regarded as statistics, our method can be used for the purpose of accurately publishing statistical information. Therefore, it may be worthwhile to consider statistical tests using elements of the reconstructed vector.
 
